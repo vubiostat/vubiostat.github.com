@@ -3,20 +3,20 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
+#watch: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Vanderbilt University Biostat Knowledge Hub
+tagline: Biostat Knowledge Hub
 author :
-  name : Name Lastname
+  name : Biostat
   email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : vubiostat
+  twitter : vandy_biostat
+#  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://data.vanderbilt.edu
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -55,7 +55,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : http://data.vanderbilt.edu/knowledgehub
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -65,16 +65,16 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : false
+  ASSET_PATH : http://data.vanderbilt.edu/knowledgehub/assets
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+#  archive_path: /archive.html
+#  categories_path : /categories.html
+#  tags_path : /tags.html
+#  atom_path : /atom.xml
+#  rss_path : /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -98,14 +98,14 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
-  analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+#  analytics :
+#    provider : google 
+#    google : 
+#        tracking_id : 'UA-123-12'
+#    getclicky :
+#      site_id : 
+#    mixpanel :
+#        token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

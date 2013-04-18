@@ -1,12 +1,9 @@
 
-http://username.github.com/categories.html
-http://username.github.com/tags.html
-http://username.github.com/pages.html
-http://username.github.com/TeachingMod/index.html
-http://username.github.com/archive.html
-http://username.github.com/atom.xml
-http://username.github.com/rss.xml
-http://username.github.com/index.html
-http://username.github.com/sitemap.txt
-
-http://username.github.com/lessons/2011/12/29/jekyll-introduction
+http://data.vanderbilt.edu/categories.html
+http://data.vanderbilt.edu/tags.html
+http://data.vanderbilt.edu/pages.html
+http://data.vanderbilt.edu/archive.html
+http://data.vanderbilt.edu/atom.xml
+http://data.vanderbilt.edu/rss.xml
+http://data.vanderbilt.edu/index.html
+http://data.vanderbilt.edu/sitemap.txt
